@@ -1,0 +1,104 @@
+{
+  "id" : 1,
+  "name" : "Getting Started",
+  "description" : "This is a model of my software system.",
+  "revision" : 0,
+  "lastModifiedDate" : "2021-07-03T20:30:04Z",
+  "lastModifiedAgent" : "structurizr-web/2441",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJHZXR0aW5nIFN0YXJ0ZWQiICJUaGlzIGlzIGEgbW9kZWwgb2YgbXkgc29mdHdhcmUgc3lzdGVtLiIgewoKICAgIG1vZGVsIHsKICAgICAgICBhdWRpdG9yID0gcGVyc29uICJBdWRpdG9yIiAiQ1JNIFF1YWxpdHkgQXVkaXRvciIKICAgICAgICB1c2VyMiA9IHBlcnNvbiAiRHVkZSIKICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJTb2Z0d2FyZSBTeXN0ZW0iICJNeSBzb2Z0d2FyZSBzeXN0ZW0uIgoKICAgICAgICBhdWRpdG9yIC0+IHNvZnR3YXJlU3lzdGVtICJVc2VzIgogICAgICAgIHVzZXIyIC0+IHNvZnR3YXJlU3lzdGVtICJVc2VzIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IHNvZnR3YXJlU3lzdGVtICJTeXN0ZW1Db250ZXh0IiAiQW4gZXhhbXBsZSBvZiBhIFN5c3RlbSBDb250ZXh0IGRpYWdyYW0uIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgcGVyc29uCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Auditor",
+      "description" : "CRM Quality Auditor",
+      "relationships" : [ {
+        "id" : "4",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Uses"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "name" : "Dude",
+      "relationships" : [ {
+        "id" : "5",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Uses"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "name" : "Software System",
+      "description" : "My software system.",
+      "location" : "Unspecified"
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "3",
+      "description" : "An example of a System Context diagram.",
+      "key" : "SystemContext",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1516,
+        "height" : 1416
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 207,
+        "y" : 207
+      }, {
+        "id" : "2",
+        "x" : 907,
+        "y" : 207
+      }, {
+        "id" : "3",
+        "x" : 532,
+        "y" : 907
+      } ],
+      "relationships" : [ {
+        "id" : "4"
+      }, {
+        "id" : "5"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "SystemContext"
+    }
+  }
+}

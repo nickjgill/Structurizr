@@ -1,0 +1,17 @@
+2021-07-03 20:05:55,385 INFO  [ContextLoaderListener] ***********************************************************************************
+2021-07-03 20:05:55,387 INFO  [ContextLoaderListener]    _____ _                   _              _          
+2021-07-03 20:05:55,388 INFO  [ContextLoaderListener]   / ____| |                 | |            (_)         
+2021-07-03 20:05:55,389 INFO  [ContextLoaderListener]  | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+2021-07-03 20:05:55,390 INFO  [ContextLoaderListener]   \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+2021-07-03 20:05:55,391 INFO  [ContextLoaderListener]   ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+2021-07-03 20:05:55,391 INFO  [ContextLoaderListener]  |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+2021-07-03 20:05:55,392 INFO  [ContextLoaderListener]                                                        
+2021-07-03 20:05:55,393 INFO  [ContextLoaderListener]  Structurizr Lite
+2021-07-03 20:05:55,394 INFO  [ContextLoaderListener]  Build: 2441
+2021-07-03 20:05:55,395 INFO  [ContextLoaderListener]  Built: 2021-07-02T08:45:37Z
+2021-07-03 20:05:55,408 INFO  [ContextLoaderListener]  Structurizr DSL: v1.12.0
+2021-07-03 20:05:55,409 INFO  [ContextLoaderListener] 
+2021-07-03 20:05:55,410 INFO  [ContextLoaderListener]  Memory: used=129MB; free=126MB; total=256MB; max=256MB
+2021-07-03 20:05:55,411 INFO  [ContextLoaderListener] ***********************************************************************************
+2021-07-03 20:19:57,322 ERROR [FileSystemWorkspaceComponent] com.structurizr.dsl.StructurizrDslParserException: The identifier "user" is already in use at line 5: user = person "Dude"
+2021-07-03 20:27:28,647 ERROR [FileSystemWorkspaceComponent] com.structurizr.dsl.StructurizrDslParserException: The source element "user" does not exist at line 8: user -> softwareSystem "Uses"
