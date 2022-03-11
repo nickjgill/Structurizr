@@ -1,0 +1,73 @@
+{
+    "name": "Microsoft Power Platform",
+    "description": "Theme to support the creation of Power Platform diagrams.",
+    "elements": [
+        {
+            "tag": "Component",
+            "background": "#ffffff",
+            "color": "#000000"
+        },
+        {
+            "tag": "Container",
+            "background": "#ffffff",
+            "color": "#000000"
+        },
+        {
+            "tag": "Dataflow",
+            "icon": "https://structurizricons.blob.core.windows.net/microsoft-icons/PowerPlatformIcons/dataflow.png"
+        },
+        {
+            "tag": "Dataverse",
+            "icon": "https://structurizricons.blob.core.windows.net/microsoft-icons/PowerPlatformIcons/Dataverse_scalable.svg"
+        },
+        {
+            "tag": "Element",
+            "background": "#ffffff",
+            "color": "#000000",
+            "shape": "RoundedBox"
+        },
+        {
+            "tag": "Infrastructure Node",
+            "background": "#ffffff",
+            "color": "#000000"
+        },
+        {
+            "tag": "Outlook",
+            "icon": "https://structurizricons.blob.core.windows.net/microsoft-icons/Microsoft365Icons/Outlook_64x64.png"
+        },
+        {
+            "tag": "Person",
+            "background": "#438dd5",
+            "color": "#ffffff",
+            "shape": "Person"
+        },
+        {
+            "tag": "Power App",
+            "icon": "https://structurizricons.blob.core.windows.net/microsoft-icons/PowerPlatformIcons/PowerApps_scalable.svg"
+        },
+        {
+            "tag": "Power Automate",
+            "icon": "https://structurizricons.blob.core.windows.net/microsoft-icons/PowerPlatformIcons/PowerAutomate_scalable.svg"
+        },
+        {
+            "tag": "Power BI",
+            "icon": "https://gist.githubusercontent.com/nickjgill/91eb41a5274efb513c03041140a7dc0e/raw/db9f90c15f1f8b660a03d147594fa74a7c47deb9/PowerBI_scalable.svg"
+        },
+        {
+            "tag": "Power Platform",
+            "icon": "https://structurizricons.blob.core.windows.net/microsoft-icons/PowerPlatformIcons/PowerPlatformLogo.png"
+        },
+        {
+            "tag": "SharePoint",
+            "icon": "https://static2.sharepointonline.com/files/fabric-cdn-prod_20200430.002/assets/brand-icons/product/svg/sharepoint_48x1.svg"
+        },
+        {
+            "tag": "Power Virtual Agents"
+        },
+        {
+            "tag": "Software System",
+            "background": "#ffffff",
+            "color": "#000000"
+        }
+    ]
+}
